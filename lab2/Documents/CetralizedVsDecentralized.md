@@ -1,0 +1,9 @@
+# Centralized Versus Decentralized File Transfer
+
++ Gary Miller
+
+Databases can be structured either in a centralized or decentralized fashion, which yields pros and cons for either design structure. While it cannot be determined which structure is better for use in all instances, by analyzing the benefits and drawbacks of both of them, it can be determined which may be better situationally. First, a centralized data base is data that is located in a single place. Some benefits of this is higher data integrity, higher security, and easier implementation. Though there are some disadvantages such as bottlenecking that occurs from high traffic, higher dependence on network connectivity, and low fault tolerance. 
+
+On the other hand there are decentralized or distributed databases, which is a database consisting of storage devices that are not in the same physical location and are connected among a network. Some of the advantages that are brought forth from this are increases in network transparency, increases in reliability and maintainability, more scalability, and autonomy. while these are greats benefits, there are also large drawbacks including lowered security, higher complexity, inefficient allocation of resources, lack of standards, less data integrity, and additional software requirements.
+
+Due to the significant number of trade-offs associated with both database structures there is no right answer for which structure to use. There are many important factors to consider when determining the optimal structure such as available resources and scale of the system. If cost is a significant determinant of what to implement, centralized computing may be the better decision, but if scalability and computational power out way costs of resources, a decentralized approach may be better.

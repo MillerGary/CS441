@@ -1,0 +1,5 @@
+# Challenges Faced in Completing Lab 2
+
++ Gary Miller
+
+After becoming familiar with the implementation and use of sockets for both clients and servers in lab 1, there were not too many challenges faced in lab 2. One aspect of the lab was determining how to send multiple messages over a single connection. My plan was to send the size of the file in one message and then the data of the file in a second message, implementing this was not incredibly difficult, but I did have a lot of issues with finding the size of the file. After much examination of the source code, I found out that I was trying to find the length of the String variable of the file path, and not the actual file object itself. After updating the methods to take in both the path name of the file and the file object the number of bytes in each file was found easily. After both the file object and String of the pathname were used the transfer of the file object was done with no more complications. Finally, files were transferred both locally and remotely over two separate nodes
