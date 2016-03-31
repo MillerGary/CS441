@@ -1,0 +1,5 @@
+# Lab 8 Challenges
+
++ Gary Miller
+
+The main challenges faced in this lab were associated with understanding the difference between running a program on the local file system versus the distributed file system. After some trial and error supported by advice given in class, I was able to understand that anything executed in my home directory or the directories I regularly have used are actually ran on Alden Hall's distributed file system and that I would actually have to navigate up several directories to perform operations directly on the local file system. Another major challenge faced was familiarizing myself with the bonnie++ as well as how to properly benchmark. This was eventually resolved by studying the manual page for bonnie++ and reading over certain sections of the assigned article several times until some of these concepts became more clear. The final challenge faced in this assignment was simply finding a time to run bonnie++ on the distributed file system, due to the fact that only one person should be executing the program at a given time.
